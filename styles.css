@@ -270,7 +270,7 @@ body {
     justify-content: space-between;
 }
 footer {
-    height: 388px;
+    height: fit-content;
     padding-top: 32px;
     padding-left: 64px;
     padding-right: 64px;
@@ -290,4 +290,16 @@ footer {
 }
 .footer-section * {
     margin-top: 16px;
+}
+.sitemap {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.sitemap * {
+    display: block;
+}
+.sitemap span:first-of-type {
+    margin-right: auto;
 }
