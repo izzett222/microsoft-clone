@@ -51,9 +51,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-main {
-  height: 500px;
-}
 .big-banner {
   height: 464px;
   background-color: #f2f2f2;
@@ -249,8 +246,48 @@ main {
     color: white;
     border-radius: 3px;
 }
-.social img {
+.social button {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: transparent;
+}
+.social button img {
+    width: 100%;
+    height: 100%;
+}
+.social {
+    display: flex;
+    gap: 12px;
+    margin-left: 64px;
+}
+.social p {
+    align-self: center;
+}
+.upper-footer {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    height: 388px;
+    padding-top: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+.footer-section h4 {
+    font-size: 15px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0
+}
+.footer-section li {
+    font-size: 11px;
+}
+.footer-section * {
+    margin-top: 16px;
 }
