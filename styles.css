@@ -32,6 +32,7 @@ body {
   text-underline-offset: 4px;
   text-decoration: none;
   padding: 16px 8px 10px;
+  font-size: 13px;
 }
 .main-nav a:hover {
   text-decoration: underline;
@@ -51,6 +52,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.ad .arrow {
+    border-color: white !important;
+    width: 8px;
+    height: 8px;
+    margin-left: 4px;
+
 }
 .big-banner {
   height: 464px;
