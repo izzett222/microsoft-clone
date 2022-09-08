@@ -156,6 +156,9 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.services a {
+    color: #0067b8;
+}
 .services ul li .image {
   width: fit-content;
   margin: 0 auto;
@@ -181,12 +184,14 @@ body {
   display: block;
   margin-top: 20px;
   font-size: 18px;
+  color: #0067b8;
 }
 .restricted {
   position: relative;
 }
 .restricted {
   margin: 0 64px;
+  margin-top: 48px;
 }
 
 .restricted img {
