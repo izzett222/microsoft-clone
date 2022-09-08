@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Fira Sans', sans-serif;
 }
 html,
 body {
@@ -299,6 +300,7 @@ footer {
 }
 .sitemap * {
     display: block;
+    font-size: 11px;
 }
 .sitemap span:first-of-type {
     margin-right: auto;
