@@ -141,11 +141,11 @@ body {
 
 @media (max-width: 785px) { 
  .ad {
-  padding-right: 16px;
-  padding-left: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
   text-align: center;
-  padding-top: 16px;
   padding: 16px;
+  height: fit-content
  }
 }
 
@@ -297,7 +297,7 @@ body {
 }
 .products div {
   flex: 1;
-  min-width: 254px;
+  min-width: 440px;
   max-width: 445px;
 }
 .products div img {
@@ -325,6 +325,7 @@ body {
 
 .restricted {
   position: relative;
+  back
 }
 .restricted {
   margin: 0 64px;
@@ -427,7 +428,6 @@ body {
     display: inline-block;
     position: relative;
     width: 32px;
-    height: 32px;
     border: none;
     background-color: transparent;
 }
@@ -439,13 +439,18 @@ body {
     display: flex;
     gap: 12px;
     margin-left: 64px;
+    margin-bottom: 64px;
 }
 .social p {
     align-self: center;
 }
 @media (max-width: 1100px) {
+  .last-controller {
+    margin-top: 160px
+  }
   .social {
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-left: 24px;
   }
 }
 
@@ -490,6 +495,7 @@ footer {
     gap: 24px;
     flex-wrap: wrap;
     margin-top: 48px;
+    margin-bottom: 16px;
 }
 .sitemap div {
   display: flex;
@@ -503,4 +509,42 @@ footer {
 }
 .sitemap .language {
     margin-right: auto;
+}
+.main-banner {
+  background-image: url('./assets/feature.webp');
+}
+.restricted-banner {
+  background-image: url('assets/gldn-8SGB4NHFCQ27-VM600821-Lenovo-IdeaPad-5Pro-Laptop-HighlightHero_VP5-1596x600.jpeg');
+}
+.changed-banner {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1124px) {
+  .changed-banner {
+    background-position: 19%;
+  }
+  .restricted-banner {
+    background-position: 100%;
+  }
+}
+@media (max-width: 1124px) {
+  .restricted-banner {
+    background-position: 95%;
+  }
+}
+@media (max-width: 690px) {
+  .restricted-banner {
+    background-position: 90%;
+  }
+}
+@media (max-width: 630px) {
+  .restricted-banner {
+    background-position: 85%;
+  }
+}
+@media (max-width: 510px) {
+  .restricted-banner {
+    background-position: 80%;
+  }
 }
