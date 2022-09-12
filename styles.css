@@ -296,9 +296,8 @@ body {
   padding: 0 64px;
 }
 .products div {
-  flex: 1;
-  min-width: 440px;
-  max-width: 445px;
+  flex: 1 1 400px;
+  max-width: 440px;
 }
 .products div img {
   width: 100%;
